@@ -1,0 +1,57 @@
+.table-responsive {
+    overflow-x: initial;
+    border: 1px solid #ccc;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td ,
+.table>thead>tr>th {
+    padding: 5px 8px;
+    font-size: 12px !important;
+    cursor: default;
+}
+
+@media (max-width: 768px){
+    .ellipsis{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+
+.table{
+    margin-bottom: 0px;
+}
+
+.custom-table {
+    border-collapse:collapse; 
+    table-layout:fixed; 
+    width:100%;
+}
+  
+.custom-table td { 
+    width:200px; 
+    word-wrap:break-word;
+}
+
+.pad-top-5{
+    padding-top: 5rem;
+}
+
+.pad-1{
+    padding: 1rem;
+}
+
+.float-right{
+    float: right;
+}
+
+.display-pagination{
+    display: block !important;
+}
+.align-center{
+    text-align: center;
+}
